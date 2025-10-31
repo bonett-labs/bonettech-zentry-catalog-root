@@ -1,0 +1,36 @@
+# ============================================
+# CATALOG ROOT - BONETTTECH
+# Arquivo raiz que aponta para todas as entidades do catálogo
+# ============================================
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: bonetttech-catalog-root
+  title: BonettTech Catalog Root
+  description: Ponto de entrada principal para o catálogo do Backstage da BonettTech
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/bonetttech/backstage-catalog/blob/main/catalog-info.yaml
+spec:
+  type: url
+  targets:
+    # Estrutura Organizacional (Groups)
+    - https://github.com/bonett-labs/bonettech-zentry-org/blob/main/org.yaml
+    
+    # Domínios de Negócio
+    - https://github.com/bonett-labs/bonettech-zentry-domain/blob/main/domains.yaml
+    
+    # Sistemas
+    - https://github.com/bonett-labs/bonettech-zentry-system/blob/main/system.yaml
+    
+    # # Componentes (Services/Apps)
+    # - https://github.com/bonetttech/backstage-catalog/blob/main/components/all-components.yaml
+    
+    # # Resources (Infraestrutura)
+    # - https://github.com/bonetttech/backstage-catalog/blob/main/resources/all-resources.yaml
+    
+    # Templates
+    - https://github.com/bonett-labs/bonettech-zentry-template-locations/blob/main/template.yaml
+    
+    # # Tech Radar
+    # - https://github.com/bonetttech/backstage-catalog/blob/main/tech-radar/tech-radar.json
