@@ -16,6 +16,9 @@ spec:
   targets:
     # Estrutura Organizacional (Groups)
     - https://github.com/bonett-labs/bonettech-zentry-org/blob/main/org.yaml
+
+    #Usuarios
+    - https://github.com/bonett-labs/bonettech-zentry-users/blob/main/user.yaml
     
     # Domínios de Negócio
     - https://github.com/bonett-labs/bonettech-zentry-domain/blob/main/domains.yaml
