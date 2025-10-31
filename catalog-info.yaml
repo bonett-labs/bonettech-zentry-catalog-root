@@ -10,7 +10,7 @@ metadata:
   title: BonettTech Catalog Root
   description: Ponto de entrada principal para o catálogo do Backstage da BonettTech
   annotations:
-    backstage.io/managed-by-location: url:https://github.com/bonetttech/backstage-catalog/blob/main/catalog-info.yaml
+    backstage.io/managed-by-location: url:https://github.com/bonett-labs/bonettech-zentry-catalog-root/blob/main/catalog-info.yaml
 spec:
   type: url
   targets:
