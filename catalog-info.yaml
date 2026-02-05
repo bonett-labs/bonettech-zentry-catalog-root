@@ -25,6 +25,9 @@ spec:
     
     # Sistemas
     - https://github.com/bonett-labs/bonettech-zentry-system/blob/main/system.yaml
+
+    # AWS
+    - https://github.com/bonett-labs/bonettech-zentry-system/blob/main/accounts.yaml
     
     # # Componentes (Services/Apps)
     # - https://github.com/bonetttech/backstage-catalog/blob/main/components/all-components.yaml
